@@ -1,0 +1,66 @@
+(Projekt top)
+(Erstellt mit Estlcam Version 8 Build 8,204)
+(Laufzeit ca. 00:00:34 Stunden)
+
+(Benoetigte Werkzeuge:)
+(Schaftfraeser T1)
+
+G17 							(XY-Ebene)
+G54 							(lokales KOS)
+G21 							(metrische Einheiten)
+G64 P 0.01 						(experimentell, geht auch ohne; maximale Wegabweichungstoleranz 0,01mm)
+
+G90
+
+(Nr. 1: Tasche raeumen: Herbschamber)
+G00 X21.6319 Y16.0000 Z5.0000   (Werkstück anfahren)
+M03 S15000
+M00                             (Warte auf Drehzahl)
+
+G00 Z0.5000
+G01 Z-4.0000 F500
+G01 X13.3702
+G01 X13.3698 Y19.0000
+G01 X21.6300
+G00 Z5.0000
+G00 X21.6319 Y16.0000
+G00 Z-3.5000
+G01 Z-8.0000
+G01 X13.3702
+G01 X13.3698 Y19.0000
+G01 X21.6300
+G00 Z5.0000
+G00 X21.6319 Y16.0000
+G00 Z-7.5000
+G01 Z-11.0000
+G01 X13.3702
+G01 X13.3698 Y19.0000
+G01 X21.6300
+G00 Z5.0000
+
+
+(Nr. 2: Tasche Seitenwand: Herbschamber)
+G00 X17.5014 Y12.5004 Z5.0000
+G00 Z0.5000
+G01 Z-4.0000 F500
+G02 X12.5020 Y17.4998 I0.0000 J4.9994
+G02 X17.5014 Y22.4991 I4.9994 J0.0000
+G02 X22.5008 Y17.4998 I0.0000 J-4.9994
+G02 X17.5014 Y12.5004 I-4.9994 J0.0000
+G01 Z-8.0000
+G02 X12.5020 Y17.4998 I0.0000 J4.9994
+G02 X17.5014 Y22.4991 I4.9994 J0.0000
+G02 X22.5008 Y17.4998 I0.0000 J-4.9994
+G02 X17.5014 Y12.5004 I-4.9994 J0.0000
+G01 Z-11.0000
+G02 X12.5020 Y17.4998 I0.0000 J4.9994
+G02 X17.5014 Y22.4991 I4.9994 J0.0000
+G02 X22.5008 Y17.4998 I0.0000 J-4.9994
+G02 X17.5014 Y12.5004 I-4.9994 J0.0000
+G00 Z5.0000
+G00 X0.0000 Y0.0000
+
+G90 							(Absolutmodus, nicht inkrementell)
+G1 G53 z-5 f1000 				(im Referenz-KOS nach oben fahren)
+M5
+M30
