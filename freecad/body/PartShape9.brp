@@ -4,12 +4,12 @@ CASCADE Topology V1, (c) Matra-Datavision
 Locations 2
 1
               1               0               0              -0 
-              0              -1               0              -0 
-              0               0              -1           -13.5 
+              0 2.22044604925031e-16              -1             -40 
+              0               1 2.22044604925031e-16               0 
 2  1 -1 0
 Curve2ds 0
 Curves 1
-2 0 22.5 0 0 0 1 1 0 -0 -0 1 0 8
+2 0 8.0000000000000071 0 0 0 1 1 0 -0 -0 1 0 3.5
 Polygon3D 0
 PolygonOnTriangulations 0
 Surfaces 0
@@ -18,7 +18,7 @@ Triangulations 0
 TShapes 3
 Ve
 1e-07
-8 -22.5 -13.5
+3.5 -40 8.00000000000001
 0 0
 
 0101101
