@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="0.16RUnknown" FileVersion="1">
+    <Properties Count="13">
+        <Property name="Comment" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="Company" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="CreatedBy" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="CreationDate" type="App::PropertyString">
+            <String value="2015-12-20T18:33:27+01:00"/>
+        </Property>
+        <Property name="Id" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="Label" type="App::PropertyString">
+            <String value="holder"/>
+        </Property>
+        <Property name="LastModifiedBy" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="LastModifiedDate" type="App::PropertyString">
+            <String value="2016-10-09T00:20:12+02:00"/>
+        </Property>
+        <Property name="License" type="App::PropertyString">
+            <String value="All rights reserved"/>
+        </Property>
+        <Property name="LicenseURL" type="App::PropertyString">
+            <String value="http://de.wikipedia.org/wiki/Alle_Rechte_vorbehalten"/>
+        </Property>
+        <Property name="Material" type="App::PropertyMap">
+            <Map count="0">
+            </Map>
+        </Property>
+        <Property name="Meta" type="App::PropertyMap">
+            <Map count="0">
+            </Map>
+        </Property>
+        <Property name="Uid" type="App::PropertyUUID">
+            <Uuid value="df1fb4be-447c-4f7d-856d-69fe2e4d4b06"/>
+        </Property>
+    </Properties>
+    <Objects Count="5">
+        <Object type="Sketcher::SketchObject" name="Sketch" />
+        <Object type="PartDesign::Pad" name="Pad" />
+        <Object type="Sketcher::SketchObject" name="Sketch001" />
+        <Object type="PartDesign::Pocket" name="Pocket" />
+        <Object type="PartDesign::Fillet" name="Fillet" />
+    </Objects>
+    <ObjectData Count="5">
+        <Object name="Sketch">
+            <Properties Count="8">
+                <Property name="Constraints" type="Sketcher::PropertyConstraintList">
+                    <ConstraintList count="12">
+                        <Constrain Name="" Type="7" Value="24.000000000000" First="2" FirstPos="1" Second="2" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="-6.145382404327" LabelPosition="8.389229774475" IsDriving="1" />
+                        <Constrain Name="" Type="13" Value="0.000000000000" First="0" FirstPos="1" Second="-2" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" IsDriving="1" />
+                        <Constrain Name="" Type="13" Value="0.000000000000" First="2" FirstPos="1" Second="-1" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" IsDriving="1" />
+                        <Constrain Name="" Type="1" Value="0.000000000000" First="3" FirstPos="1" Second="0" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" IsDriving="1" />
+                        <Constrain Name="" Type="1" Value="0.000000000000" First="3" FirstPos="2" Second="1" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" IsDriving="1" />
+                        <Constrain Name="" Type="1" Value="0.000000000000" First="2" FirstPos="1" Second="0" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" IsDriving="1" />
+                        <Constrain Name="" Type="1" Value="0.000000000000" First="2" FirstPos="2" Second="1" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" IsDriving="1" />
+                        <Constrain Name="" Type="8" Value="4.500000000000" First="0" FirstPos="1" Second="0" SecondPos="2" Third="-2000" ThirdPos="0" LabelDistance="4.299229145050" LabelPosition="0.000000000000" IsDriving="1" />
+                        <Constrain Name="" Type="4" Value="0.000000000000" First="2" FirstPos="0" Second="3" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" IsDriving="1" />
+                        <Constrain Name="" Type="12" Value="0.000000000000" First="3" FirstPos="0" Second="2" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" IsDriving="1" />
+                        <Constrain Name="" Type="10" Value="0.000000000000" First="2" FirstPos="0" Second="0" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" IsDriving="1" />
+                        <Constrain Name="" Type="4" Value="0.000000000000" First="2" FirstPos="0" Second="-1" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" IsDriving="1" />
+                    </ConstraintList>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="ExternalGeometry" type="App::PropertyLinkSubList">
+                    <LinkSubList count="0">
+                    </LinkSubList>
+                </Property>
+                <Property name="Geometry" type="Part::PropertyGeometryList">
+                    <GeometryList count="4">
+                        <Geometry  type="Part::GeomLineSegment">
+                            <Construction value="0"/>
+                            <LineSegment StartX="0.000000000000" StartY="0.000000000000" StartZ="0.000000000000" EndX="0.000000000000" EndY="4.500000000000" EndZ="0.000000000000"/>
+                        </Geometry>
+                        <Geometry  type="Part::GeomLineSegment">
+                            <Construction value="0"/>
+                            <LineSegment StartX="24.000000000001" StartY="4.500000000000" StartZ="0.000000000000" EndX="24.000000000000" EndY="0.000000000000" EndZ="0.000000000000"/>
+                        </Geometry>
+                        <Geometry  type="Part::GeomLineSegment">
+                            <Construction value="0"/>
+                            <LineSegment StartX="0.000000000000" StartY="0.000000000000" StartZ="0.000000000000" EndX="24.000000000000" EndY="0.000000000000" EndZ="0.000000000000"/>
+                        </Geometry>
+                        <Geometry  type="Part::GeomLineSegment">
+                            <Construction value="0"/>
+                            <LineSegment StartX="0.000000000000" StartY="4.500000000000" StartZ="0.000000000000" EndX="24.000000000001" EndY="4.500000000000" EndZ="0.000000000000"/>
+                        </Geometry>
+                    </GeometryList>
+                </Property>
+                <Property name="Label" type="App::PropertyString">
+                    <String value="s_outline"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement">
+                    <PropertyPlacement Px="0.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part file="PartShape.brp"/>
+                </Property>
+                <Property name="Support" type="App::PropertyLinkSub">
+                    <LinkSub value="" count="0">
+                    </LinkSub>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Pad">
+            <Properties Count="12">
+                <Property name="AddShape" type="Part::PropertyPartShape">
+                    <Part file="PartShape1.brp"/>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString">
+                    <String value="outline"/>
+                </Property>
+                <Property name="Length" type="App::PropertyLength">
+                    <Float value="10.000000000000"/>
+                </Property>
+                <Property name="Length2" type="App::PropertyLength">
+                    <Float value="100.000000000000"/>
+                </Property>
+                <Property name="Midplane" type="App::PropertyBool">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement">
+                    <PropertyPlacement Px="0.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+                </Property>
+                <Property name="Reversed" type="App::PropertyBool">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part file="PartShape2.brp"/>
+                </Property>
+                <Property name="Sketch" type="App::PropertyLink">
+                    <Link value="Sketch"/>
+                </Property>
+                <Property name="Type" type="App::PropertyEnumeration">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="UpToFace" type="App::PropertyLinkSub">
+                    <LinkSub value="" count="0">
+                    </LinkSub>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Sketch001">
+            <Properties Count="8">
+                <Property name="Constraints" type="Sketcher::PropertyConstraintList">
+                    <ConstraintList count="6">
+                        <Constrain Name="" Type="11" Value="0.700000000000" First="0" FirstPos="0" Second="-2000" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="3.590910911560" LabelPosition="-0.533046483994" IsDriving="1" />
+                        <Constrain Name="" Type="12" Value="0.500000000000" First="0" FirstPos="0" Second="1" SecondPos="0" Third="-2000" ThirdPos="0" LabelDistance="3.590910911560" LabelPosition="-0.533046483994" IsDriving="1" />
+                        <Constrain Name="" Type="14" Value="0.000000000000" First="-4" FirstPos="1" Second="-4" SecondPos="2" Third="2" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" IsDriving="1" />
+                        <Constrain Name="" Type="14" Value="0.000000000000" First="0" FirstPos="3" Second="1" SecondPos="3" Third="2" ThirdPos="0" LabelDistance="10.000000000000" LabelPosition="0.000000000000" IsDriving="1" />
+                        <Constrain Name="" Type="8" Value="3.000000000000" First="1" FirstPos="3" Second="-4" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="-3.885855913162" LabelPosition="-4.822868347168" IsDriving="1" />
+                        <Constrain Name="" Type="7" Value="3.500000000000" First="1" FirstPos="3" Second="-4" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="3.646446704865" LabelPosition="-5.505668640137" IsDriving="1" />
+                    </ConstraintList>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="ExternalGeometry" type="App::PropertyLinkSubList">
+                    <LinkSubList count="2">
+                        <Link obj="Pad" sub="Edge5"/>
+                        <Link obj="Pad" sub="Edge7"/>
+                    </LinkSubList>
+                </Property>
+                <Property name="Geometry" type="Part::PropertyGeometryList">
+                    <GeometryList count="3">
+                        <Geometry  type="Part::GeomCircle">
+                            <Construction value="0"/>
+                            <Circle CenterX="-20.500000000001" CenterY="7.000000000000" CenterZ="0.000000000000" NormalX="0.000000000000" NormalY="0.000000000000" NormalZ="1.000000000000" Radius="0.700000000000"/>
+                        </Geometry>
+                        <Geometry  type="Part::GeomCircle">
+                            <Construction value="0"/>
+                            <Circle CenterX="-3.500000000000" CenterY="7.000000000000" CenterZ="0.000000000000" NormalX="0.000000000000" NormalY="0.000000000000" NormalZ="1.000000000000" Radius="0.700000000000"/>
+                        </Geometry>
+                        <Geometry  type="Part::GeomLineSegment">
+                            <Construction value="1"/>
+                            <LineSegment StartX="-12.000000000001" StartY="4.018573658102" StartZ="0.000000000000" EndX="-12.000000000001" EndY="5.084217128609" EndZ="0.000000000000"/>
+                        </Geometry>
+                    </GeometryList>
+                </Property>
+                <Property name="Label" type="App::PropertyString">
+                    <String value="s_heating_pins"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement">
+                    <PropertyPlacement Px="-0.000000000000" Py="4.500000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.707106781187" Q2="0.707106781187" Q3="0.000000000000"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part file="PartShape3.brp"/>
+                </Property>
+                <Property name="Support" type="App::PropertyLinkSub">
+                    <LinkSub value="Pad" count="1">
+                        <Sub value="Face2"/>
+                    </LinkSub>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Pocket">
+            <Properties Count="11">
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString">
+                    <String value="heating_pins"/>
+                </Property>
+                <Property name="Length" type="App::PropertyLength">
+                    <Float value="5.000000000000"/>
+                </Property>
+                <Property name="Midplane" type="App::PropertyBool">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement">
+                    <PropertyPlacement Px="0.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+                </Property>
+                <Property name="Reversed" type="App::PropertyBool">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part file="PartShape4.brp"/>
+                </Property>
+                <Property name="Sketch" type="App::PropertyLink">
+                    <Link value="Sketch001"/>
+                </Property>
+                <Property name="SubShape" type="Part::PropertyPartShape">
+                    <Part file="PartShape5.brp"/>
+                </Property>
+                <Property name="Type" type="App::PropertyEnumeration">
+                    <Integer value="1"/>
+                </Property>
+                <Property name="UpToFace" type="App::PropertyLinkSub">
+                    <LinkSub value="" count="0">
+                    </LinkSub>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Fillet">
+            <Properties Count="6">
+                <Property name="Base" type="App::PropertyLinkSub">
+                    <LinkSub value="Pocket" count="4">
+                        <Sub value="Edge7"/>
+                        <Sub value="Edge12"/>
+                        <Sub value="Edge2"/>
+                        <Sub value="Edge1"/>
+                    </LinkSub>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString">
+                    <String value="fillets"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement">
+                    <PropertyPlacement Px="0.000000000000" Py="0.000000000000" Pz="0.000000000000" Q0="0.000000000000" Q1="0.000000000000" Q2="0.000000000000" Q3="1.000000000000"/>
+                </Property>
+                <Property name="Radius" type="App::PropertyQuantityConstraint">
+                    <Float value="1.000000000000"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part file="PartShape6.brp"/>
+                </Property>
+            </Properties>
+        </Object>
+    </ObjectData>
+</Document>
