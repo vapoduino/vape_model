@@ -34,18 +34,18 @@ Some vaporizers out there use plastic mouthpieces or plastic in the airflow.
 The vaporizer of this project is made out of hardwood, glass and metals like stainless steel.
 The heating element is a very thin nichrome wire.
 
-# Components
-## Model
+## Components
+### Model
 The CAD model for the vaporizer can be found in [model](model/).
 The CAD itself is modeled using [FreeCad](https://www.freecadweb.org/).
 [EstlCAM](https://www.estlcam.de/) was used to generate the ngc files.
 
-## Schematics and PCB layout
+### Schematics and PCB layout
 Schematics and the PCB layout can be found in [schematics](schematics).
 You will need [EAGLE](https://www.autodesk.com/products/eagle/overview) to work with the schematics.
 I used [OSHPark](https://oshpark.com/) to get my PCBs made.
 
-## Firmware
+### Firmware
 The firmware is in [firmware](firmware).
 It is based on [Arduino](https://www.arduino.cc/).
 For the PID algorithm, the [Ardunio PID library](https://github.com/br3ttb/Arduino-PID-Library/) is used.

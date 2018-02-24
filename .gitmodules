@@ -1,3 +1,6 @@
 [submodule "firmware"]
 	path = firmware
 	url = https://github.com/acidg/vape_firmware_arduino
+[submodule "schematics"]
+	path = schematics
+	url = https://github.com/acidg/vape_schematics
