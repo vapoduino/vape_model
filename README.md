@@ -50,6 +50,9 @@ The firmware is in [firmware](firmware).
 It is based on [Arduino](https://www.arduino.cc/).
 For the PID algorithm, the [Ardunio PID library](https://github.com/br3ttb/Arduino-PID-Library/) is used.
 
+## Build instructions
+Check the [Wiki](https://github.com/acidg/vape_model/wiki) for instructions on building your own!
+
 ## Pictures
 This project is in early stages, but the first working prototypes do exist:
 ![Model](images/vape_model.jpg)
