@@ -41,17 +41,17 @@ The CAD itself is modeled using [FreeCad](https://www.freecadweb.org/).
 [EstlCAM](https://www.estlcam.de/) was used to generate the ngc files.
 
 ### Schematics and PCB layout
-Schematics and the PCB layout can be found in [schematics](schematics).
+Schematics and the PCB layout can be found in [schematics](https://github.com/vapoduino/vape_schematics/).
 You will need [EAGLE](https://www.autodesk.com/products/eagle/overview) to work with the schematics.
 I used [OSHPark](https://oshpark.com/) to get my PCBs made.
 
 ### Firmware
-The firmware is in [firmware](firmware).
+The firmware is in [firmware](https://github.com/vapoduino/vape_firmware_arduino).
 It is based on [Arduino](https://www.arduino.cc/).
 For the PID algorithm, the [Ardunio PID library](https://github.com/br3ttb/Arduino-PID-Library/) is used.
 
 ## Build instructions
-Check the [Wiki](https://github.com/acidg/vape_model/wiki) for instructions on building your own!
+Check the [Wiki](https://github.com/vapoduino/vape_model/wiki) for instructions on building your own!
 
 ## Pictures
 This project is in early stages, but the first working prototypes do exist:
