@@ -60,3 +60,5 @@ This project is in early stages, but the first working prototypes do exist:
 ![Sideview](images/vape_sideview.jpg)
 
 ![Wiring](images/vape_wiring.jpg)
+
+![Concept Drawing](images/vape_concept.svg)
