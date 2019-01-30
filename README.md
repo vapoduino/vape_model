@@ -1,5 +1,5 @@
 # Open Source Herbs Vaporizer
-This repository contains all materials for an open source herbs vaporizer.
+This repository contains information for an open source herbs vaporizer.
 
 ## Features
 The goal of this project is to fulfill several requirements, commercially available products can not offer:
